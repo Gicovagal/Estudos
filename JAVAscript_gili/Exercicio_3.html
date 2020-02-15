@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Curso Java Script</title>
+  </head>
+  <body>
+
+    <script>
+      var skills = ["Javascript", "ReactJS", "React Native"];
+
+      function temHabilidade(skills, string) {
+       if (skills.indexOf(string) == 0) {
+         return 'true';
+        }else{
+         return 'false';
+        }
+      }
+
+      console.log(temHabilidade(skills,"Javascript")); // true ou false
+
+    </script>
+  </body>
+</html>
